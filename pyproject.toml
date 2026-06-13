@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "countries-explorer"
+version = "0.1.0"
+description = "Streamlit app that fetches REST Countries data and displays it"
+authors = ["Chanukya Pekala"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.35"
+requests = "^2.32"
+pandas = "^2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
